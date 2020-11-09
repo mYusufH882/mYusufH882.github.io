@@ -1,0 +1,115 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+ 
+li {
+  float: left;
+}
+ 
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ 
+li a:hover {
+  background-color: #111;
+}
+
+.container {
+	padding: 10px; 
+	margin: 0px; 
+	margin-top: 45px;
+	height: 350px;
+	background-image: url(gambar/amik.jpeg); 
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.container img, figcaption{
+	border-radius: 50px;
+	display: block;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	text-shadow: 2px 0px 2px ghostwhite;
+	text-align: center;
+	font-weight:bold;
+}
+
+.content {
+	padding: 10px; 
+	margin: auto; 
+	margin-top: auto;
+	height: 1000px;
+	background-color: azure; 
+}
+
+.content h2{
+	padding-top: 45px;
+	text-align: center;
+}
+
+.blok-media {
+	padding: 15px;
+}
+
+.gmb {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gmb :hover {
+	border-radius:50px;
+}
+
+iframe {
+	width: 330px;
+}
+
+.about {
+	padding: 25px; 
+	margin: auto; 
+	margin-top: auto;
+	height: auto;
+	background-color: lightyellow;
+}
+
+.about h2 {
+	padding-top: 45px;
+	text-align:center;
+}
+
+.contact {
+	padding: 10px; 
+	margin: auto; 
+	margin-top: auto;
+	height: 500px;
+	background-color: black;
+	color:ghostwhite;
+}
+
+.contact h2 {
+	padding-top: 45px;
+	text-align:center;
+	color: ghostwhite;
+}
